@@ -7,11 +7,11 @@ The goal is to provide **data-driven insights** to help businesses make informed
 ## Dataset
 - File: `data.csv`  
 - Contains sales records with columns such as:
-  - `InvoiceNo` â Invoice number
-  - `Country` â Customer location
-  - `Quantity` â Number of items purchased
-  - `UnitPrice` â Price per item
-  - `Revenue` â Total revenue
+  - `InvoiceNo` Invoice number
+  - `Country`  Customer location
+  - `Quantity`  Number of items purchased
+  - `UnitPrice`  Price per item
+  - `Revenue`  Total revenue
 - Number of rows: 1000+ (example, update as per your dataset)
 
 ## Features
