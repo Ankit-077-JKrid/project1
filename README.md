@@ -12,7 +12,7 @@ The goal is to provide **data-driven insights** to help businesses make informed
   - `Quantity`Number of items purchased
   - `UnitPrice`Price per item
   - `Revenue`Total revenue
-- Number of rows: 1000+ (example, update as per your dataset)
+- Number of rows: 550,000 (example, update as per your dataset)
 
 ## Features
 - Exploratory Data Analysis (EDA) including:
