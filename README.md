@@ -1,22 +1,32 @@
-# E-commerce Sales Analysis 📈
+# Project 1: E-commerce Data Analysis
 
-## Project Objective
-The goal of this project is to analyze an e-commerce dataset to understand sales trends, customer behavior, and product performance.
+## Overview
+This project analyzes e-commerce sales data to uncover trends, revenue distribution, and customer behavior insights.  
+The goal is to provide **data-driven insights** to help businesses make informed decisions.
 
 ## Dataset
-- **Source:** [Mention where you got the data, e.g., Kaggle or Practice Folder]
-- **Size:** 500,000+ rows
-- **Key Columns:** InvoiceNo, StockCode, Description, Quantity, UnitPrice, Country.
+- File: `data.csv`  
+- Contains sales records with columns such as:
+  - `InvoiceNo` â Invoice number
+  - `Country` â Customer location
+  - `Quantity` â Number of items purchased
+  - `UnitPrice` â Price per item
+  - `Revenue` â Total revenue
+- Number of rows: 1000+ (example, update as per your dataset)
 
-## Key Insights (So far)
-* Identified the top 5 selling products by revenue.
-* Analyzed monthly sales trends to find peak shopping seasons.
-* Cleaned data by handling missing `CustomerID` values and removing negative `Quantity` (returns).
+## Features
+- Exploratory Data Analysis (EDA) including:
+  - Data cleaning & preprocessing
+  - Revenue distribution by country
+  - Top products analysis
+  - Time-based trends
+- Visualizations using `matplotlib` and `seaborn`
+- Key insights and business recommendations
 
-## How to Run
-1. Clone this repository.
-2. Install dependencies: `pip install pandas matplotlib`.
-3. Open `project_new.ipynb` in VS Code.
+## Installation
+Clone this repository and install required libraries:
 
----
-*Created by ["Ankit"]*
+```bash
+git clone https://github.com/Ankit-077-JKrid/project1.git
+cd project1
+pip install -r requirements.txt
