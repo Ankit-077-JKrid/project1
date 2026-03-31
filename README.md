@@ -5,13 +5,13 @@ This project analyzes e-commerce sales data to uncover trends, revenue distribut
 The goal is to provide **data-driven insights** to help businesses make informed decisions.
 
 ## Dataset
-- File: `data.csv`  
+- File:`data.csv`  
 - Contains sales records with columns such as:
-  - `InvoiceNo` Invoice number
-  - `Country`  Customer location
-  - `Quantity`  Number of items purchased
-  - `UnitPrice`  Price per item
-  - `Revenue`  Total revenue
+  - `InvoiceNo`Invoice number
+  - `Country` Customer location
+  - `Quantity`Number of items purchased
+  - `UnitPrice`Price per item
+  - `Revenue`Total revenue
 - Number of rows: 1000+ (example, update as per your dataset)
 
 ## Features
